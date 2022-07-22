@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react"
 const AppContext = React.createContext()
 
 
-export const Movie_API_URI = `http://www.omdbapi.com/?apikey=b2ad8e8&`
+export const Movie_API_URI = `https://www.omdbapi.com/?apikey=b2ad8e8&`
 
 const AppProvide = ( {children} ) => {
     const [loader, setLoader] = useState(true)

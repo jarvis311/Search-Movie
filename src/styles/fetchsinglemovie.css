@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+
+.content-single {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 50%;    
+    background: #f0eeee;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+.movie_info{
+    margin-top: 2rem;
+
+}
+
+.img>img {
+    height: 50vh;
+    padding: 5rem;
+}
+.movie_title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.other_info {
+    font-size:1rem ;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.837);
+}
+.other_info > span{
+    font-weight: 600;
+}
+.loader_movei{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+
+@media screen and (max-width:600px) {
+    .content-single {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+    }
+
+    .movie_info {
+        text-align: center;
+    }
+    .img >img {
+        height: 44vh;
+    }
+    .loader_movei{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin-left: 23%;
+        margin-top: 90%;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+.main{
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movielist  {
+  height: 50vh;
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #adefd1ff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+ .content {
+  text-align: center;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+.content > a {
+  text-decoration: none;
+}
+.content img{
+  
+    height: 32vh;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #101820ff;   
+    transition: .5s all ease;
+}
+
+.title:hover{
+  color: #333d79ff;
+}
+
+
+@media screen and (max-width:600px) {
+  .main{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
